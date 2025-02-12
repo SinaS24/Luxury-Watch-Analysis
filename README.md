@@ -406,30 +406,55 @@ We analysed the most frequently used hour marking styles in luxury watches.
 
 
 
+## Recommendations
+Based on the insights and findings above, we recommend the following actions for luxury watch manufacturers and retailers:
 
+### 1. Leverage Seasonal Sales Trends
+- Sales peak between **August and December**, likely due to **holiday shopping and end-of-year gifting**.
+- Brands should **increase marketing efforts and inventory** leading up to these peak months.
+- Consider **limited-edition releases** or **exclusive promotions** during high-sales periods.
 
-# Recommendations:
+### 2. Regional Market Expansion
+- The **USA and Australia** have the highest luxury watch sales.
+- However, **China and Japan** represent strong emerging markets with high demand for premium brands like Rolex and Omega.
+- Companies should **tailor pricing, marketing, and distribution strategies** for these key regions.
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+### 3. Focus on High-Margin Materials
+- **Platinum, Rose Gold, and White Gold watches** have the highest average prices.
+- Watchmakers can **increase profit margins** by emphasizing these materials in high-end collections.
+- **Carbon and Ceramic** watches also show strong pricing potential and should be marketed for **modern, innovative buyers**.
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+### 4. Optimize Brand Positioning
+- **Rolex dominates in both sales volume and pricing power**.
+- **Patek Philippe and Audemars Piguet** target ultra-luxury buyers with significantly higher average prices.
+- **Omega and TAG Heuer** perform well in the mid-tier market but should explore **premium limited-edition collections** to compete in the high-end sector.
 
+### 5. Strategic Product Development
+- **Black, Blue, and Silver dials** are the most popular and should be prioritized in mainstream collections.
+- **Minimalist watch designs (No Hour Markings) dominate the market**, indicating a strong preference for clean, modern aesthetics.
+- **Automatic watches sell at a premium compared to Quartz watches**, reinforcing the importance of **high-quality craftsmanship** in brand messaging.
 
-# Assumptions and Caveats:
+---
 
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+## Assumptions & Caveats
+Throughout the analysis, we made several assumptions and encountered data limitations. These should be considered when interpreting the insights:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+### Assumption: Each row represents an individual sale.
+- Since the dataset lacked unique transaction IDs, we created a `Transaction_ID` field and treated each row as a separate purchase.
+- This assumes that **no duplicate sales entries exist** and that all sales are unique.
+
+### Assumption: Purchase Dates Are Simulated.
+- The dataset **did not include actual purchase dates**, so we generated **realistic timestamps** based on market trends.
+- Seasonal analysis is **based on these generated dates**, meaning actual seasonality might differ slightly.
+
+### Assumption: Locations Were Generated.
+- The dataset **did not include real-world purchase locations**, so we added **realistic country and city assignments**.
+- While these locations align with global luxury watch trends, real-world sales **may vary based on distribution channels**.
+
+### Caveat: Price Data Variability.
+- Price values were analyzed as provided in the dataset, but we assume **pricing reflects actual market conditions**.
+- Some extreme outliers (e.g., ultra-high prices) could result from **limited-edition watches or erroneous data entries**.
+
+### Caveat: Brand Representation in Dataset.
+- The dataset may not be **fully representative** of the entire luxury watch industry.
+- Some niche brands may be underrepresented, affecting overall **brand comparisons**.
