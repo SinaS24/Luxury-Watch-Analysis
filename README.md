@@ -37,7 +37,6 @@ Below is the finalised table after structuring and cleaning the data.
 | **Lunette Material** | TEXT | Material used for the bezel (e.g., ceramic, steel). |
 | **Price**        | INTEGER  | The price of the watch in USD. |
 
-
 ## Initial Data Quality Checks
 
 Below are the key findings and improvements made:
@@ -49,14 +48,17 @@ Below are the key findings and improvements made:
 
 
 
-
 # Executive Summary
 
 ## Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+This analysis explores key trends in luxury watch sales, focusing on seasonality, regional demand, and pricing strategies. Sales peak between August and December, driven by holiday shopping patterns, while February consistently records the lowest sales volume. A decline in sales in 2024 suggests potential economic shifts or changes in consumer behavior.  
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+Regionally, the USA and Australia lead in total sales, while China and Japan show strong growth potential for luxury watch brands. Rolex dominates the global market, followed by Omega and Audemars Piguet, with premium brands like Patek Philippe commanding the highest prices.  
+
+Material and design choices significantly influence pricing, with Platinum, Rose Gold, and White Gold watches ranking among the most expensive. Black, Blue, and Silver dials are the most popular, reflecting classic consumer preferences. Automatic watches consistently sell at a premium, reinforcing their perception as high-end craftsmanship pieces.  
+
+[📊 **View Interactive Dashboard**](#) *(Add link once published)*  
 
 
 
@@ -199,6 +201,7 @@ We analysed total sales by brand in different countries to determine the **top-p
 | UAE          | Rolex  | 3,687      |
 | France       | Rolex  | 3,668      |
 
+
 ### Top 3 Selling Brands by Country
 We analysed the top-selling luxury watch brands per country to understand global brand dominance.
 
@@ -294,7 +297,6 @@ We analysed how the choice of bracelet material influences watch pricing.
 | Gold/Steel       | $14,412.72  | $135       | $227,731   |
 
 
-
 ### Price Segmentation by Watch Complication: How Movement Type Impacts Watch Prices
 We analysed how different movement types (complications) affect watch pricing.
 
@@ -310,7 +312,6 @@ We analysed how different movement types (complications) affect watch pricing.
 | Hand-Wound   | $22,641.09 | $75        | $1,870,006 |
 | Automatic    | $21,165.10 | $53        | $4,118,557 |
 | Quartz       | $3,146.84  | $54        | $400,382   |
-
 
 
 ## Most Popular Watch Features: 
@@ -403,10 +404,7 @@ We analysed the most frequently used hour marking styles in luxury watches.
 
 
 
-
-
-
-## Recommendations
+# Recommendations
 Based on the insights and findings above, we recommend the following actions for luxury watch manufacturers and retailers:
 
 ### 1. Leverage Seasonal Sales Trends
@@ -434,9 +432,9 @@ Based on the insights and findings above, we recommend the following actions for
 - **Minimalist watch designs (No Hour Markings) dominate the market**, indicating a strong preference for clean, modern aesthetics.
 - **Automatic watches sell at a premium compared to Quartz watches**, reinforcing the importance of **high-quality craftsmanship** in brand messaging.
 
----
 
-## Assumptions & Caveats
+
+# Assumptions & Caveats
 Throughout the analysis, we made several assumptions and encountered data limitations. These should be considered when interpreting the insights:
 
 ### Assumption: Each row represents an individual sale.
