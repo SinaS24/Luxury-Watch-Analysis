@@ -1,6 +1,5 @@
 # Project Background
-Luxury watches represent a unique segment of the global luxury goods industry, characterised by high-end craftsmanship, brand heritage, and exclusivity. The industry is dominated by Swiss watchmakers such as Rolex, Patek Philippe, Audemars Piguet, and Omega, along with high-end fashion brands like Cartier. The data set supplies sales for over 160,000 watches. 
-This project analyses the dataset in order to uncover insights that will guide decision makers in marketing, product development, and pricing strategy. 
+Luxury watches represent a unique segment of the global luxury goods industry, characterised by high-end craftsmanship, brand heritage, and exclusivity. The industry is dominated by Swiss watchmakers such as Rolex, Patek Philippe, Audemars Piguet, and Omega, along with high-end fashion brands like Cartier. The data set supplies sales for over 160,000 watches. This analysis was done in order to uncover insights that will guide decision makers at an organisation looking to get into the market, particuarly in the ares of product development, marketing, and pricing strategy. 
 
 Insights and recommendations are provided on the following key areas:
 
@@ -40,7 +39,7 @@ Below is the finalised table after structuring and cleaning the data.
 ## Initial Data Quality Checks
 
 Below are the key findings and improvements made:
--	Added Transaction_ID – Assigned a unique ID to every sale. (The dataset originally lacked a unique transaction identifier. Since the same Reference number appeared in multiple rows, it was determined that for this analysis it would be best if each row represented an individual sale rather than just a unique watch model.)
+-	Added Transaction_ID – Assigned a unique ID to every sale. (The dataset originally lacked a unique transaction identifier. Since the same reference number appeared in multiple rows, it was determined that for this analysis it would be best if each row represented an individual sale rather than just a unique watch model.)
 -	Checked for Missing Values – Identified 1 missing Reference value and removed it.
 -	Ensured Price Is Numeric – Verified no non-numeric values exist.
 -	Standardised Categorical Values – Fixed inconsistencies in materials and complications.
@@ -89,8 +88,7 @@ We analysed the total number of luxury watches sold each month from **January 20
 
 * **Seasonal trends observed** with higher sales in **August-December**
 * **February consistently shows the lowest sales**, likely due to fewer days.
-* **Strongest months:** August & December (higher sales due to potential holiday shopping).
-* **2024 data shows a decline in January sales** compared to previous years.
+* **Strongest months:** August & December (potentially due to holiday shopping, or EOFY).
 
 | Year-Month | Total Sales |
 |------------|------------|
@@ -110,13 +108,13 @@ We analysed the total number of luxury watches sold each month from **January 20
 
 ## Regional Sales Trends & Patterns
 
-### Total Sales by Region 
+### Total Sales by Country 
 We analysed total sales by country to identify key luxury watch markets.
 
 * **USA & Australia dominate sales**, accounting for 50%+ of the dataset.
 * **China ranks 3rd**, but with significantly fewer sales than the top two.
 * **Europe has multiple mid-tier markets** (Italy, Germany, UK, France, Switzerland).
-* **Top 5 countries** make up ~80% of total sales.
+* **Top 3 countries** make up ~70% of total sales.
 
 | Country       | Total Sales |
 |--------------|------------|
@@ -179,7 +177,7 @@ We analysed total sales by brand in Australia to understand consumer demand for 
 
 
 ### Brand Dominance by Country: Rolex's Market Leadership
-We analysed total sales by brand in different countries to determine the **top-performing luxury watch brands per region**.
+We analysed total sales by brand in different countries to determine the **top-performing luxury watch brands per country**.
 
 **Key Insights:**
 * **Rolex is the #1 brand in every major country**, showing an unmatched global presence.
@@ -231,28 +229,28 @@ We analysed the top-selling luxury watch brands per country to understand global
 We analysed how pricing varies across the top luxury watch brands.
 
 **Key Insights:**
-* **Rolex leads in both total sales & premium pricing**, with an average price of $20,899.
-* **Omega is the 2nd best-selling brand but has a lower average price ($5,894).**
-* **Patek Philippe & Audemars Piguet dominate the ultra-luxury segment**, with avg prices above $65,000.
+* **Rolex leads in both total sales & premium pricing**, with an average price of $14,344.
+* **Omega is the 2nd best-selling brand but has a lower average price ($4,979.50).**
+* **Patek Philippe & Audemars Piguet dominate the ultra-luxury segment**, with median prices above $70,000.
 * **Breitling, Tudor, TAG Heuer offer more affordable luxury options**, priced between $3,000-$5,000.
-* **Seiko is the most affordable brand in the dataset**, with an average price of $882.
+* **Seiko is the most affordable brand in the dataset**, with a median price of $882.
 
 | Brand             | Total Sales | Avg Price  | Min Price | Max Price   |
 |------------------|------------|------------|------------|------------|
-| Rolex           | 74,442      | $20,899.54  | $990       | $946,795   |
-| Omega           | 12,260      | $5,894.80   | $250       | $1,760,000 |
-| Audemars Piguet | 7,882       | $66,419.61  | $3,690     | $1,238,437 |
-| Patek Philippe  | 6,866       | $95,652.51  | $4,950     | $4,118,557 |
-| Breitling       | 6,017       | $4,884.81   | $650       | $47,500    |
-| Tudor           | 4,326       | $4,233.40   | $885       | $69,990    |
-| Cartier         | 3,979       | $7,975.33   | $800       | $138,268   |
-| TAG Heuer       | 3,952       | $3,334.71   | $271       | $979,081   |
-| Hublot          | 3,845       | $16,021.89  | $973       | $274,138   |
-| Seiko           | 3,704       | $882.11     | $53        | $43,114    |
+| Rolex           | 74,442      | $14,344.00 | $990       | $946,795   |
+| Omega           | 12,260      | $4,979.50  | $250       | $1,760,000 |
+| Audemars Piguet | 7,882       | $46,870.50 | $3,690     | $1,238,437 |
+| Patek Philippe  | 6,866       | $71,010.00 | $4,950     | $4,118,557 |
+| Breitling       | 6,017       | $4,329.00  | $650       | $47,500    |
+| Tudor           | 4,326       | $4,233.40  | $885       | $69,990    |
+| Cartier         | 3,979       | $7,975.33  | $800       | $138,268   |
+| TAG Heuer       | 3,952       | $3,334.71  | $271       | $979,081   |
+| Hublot          | 3,845       | $16,021.89 | $973       | $274,138   |
+| Seiko           | 3,704       | $882.11    | $53        | $43,114    |
 
 
-### Price Segmentation by Case Material: How Case Materials Impact Watch Prices
-We analysed how the choice of case material influences watch pricing.
+### Price Segmentation by Case Material
+We analysed how the choice of case material influences pricing.
 
 **Key Insights:**
 * **Platinum is the most expensive case material**, with an average price of $117,271.
@@ -274,14 +272,14 @@ We analysed how the choice of case material influences watch pricing.
 | Titanium     | $16,290.38  | $110       | $719,365   |
 
 
-### Price Segmentation by Bracelet Material: How Bracelet Materials Impact Watch Prices
-We analysed how the choice of bracelet material influences watch pricing.
+### Price Segmentation by Bracelet Material
+We analysed how the choice of bracelet material influences pricing.
 
 **Key Insights:**
 * **Platinum bracelets are the most expensive**, with an average price of $123,335.
 * **Gold bracelets remain highly valued**, with rose gold leading at $85,001.
 * **Ceramic, Reptile-Leather, and Rubber bracelets command high premiums**, used in exclusive designs.
-* **Steel & Gold/Steel offer more affordable luxury options**, appealing to broader markets.
+* **Steel offers a more affordable luxury options**, appealing to broader markets.
 
 | Bracelet Material  | Avg Price  | Min Price | Max Price   |
 |-------------------|------------|------------|------------|
@@ -294,10 +292,9 @@ We analysed how the choice of bracelet material influences watch pricing.
 | Reptile-Leather  | $28,624.16  | $104       | $4,118,557 |
 | Satin            | $15,703.17  | $340       | $54,913    |
 | Steel            | $14,500.90  | $53        | $312,423   |
-| Gold/Steel       | $14,412.72  | $135       | $227,731   |
 
 
-### Price Segmentation by Watch Complication: How Movement Type Impacts Watch Prices
+### Price Segmentation by Watch Complication
 We analysed how different movement types (complications) affect watch pricing.
 
 **Key Insights:**
@@ -314,24 +311,22 @@ We analysed how different movement types (complications) affect watch pricing.
 | Quartz       | $3,146.84  | $54        | $400,382   |
 
 
-## Most Popular Watch Features: 
+## Most Popular Watch Features
 
 ### The Most Common Case Materials in Luxury Watches
 We analysed the most frequently used case materials in luxury watches.
 
 **Key Insights:**
 * **Steel is by far the most common material**, with over 105,000 watches.
-* **Gold/Steel combinations remain popular**, appearing in nearly 16,000 watches.
-* **Rose Gold is the most popular full-gold option**, followed by Yellow Gold & White Gold.
+* **Yellow Gold remain popular**, appearing in nearly 16,000 watches.
 * **Titanium & Ceramic are the most common high-tech materials**, offering durability & scratch resistance.
 * **Platinum & Carbon are rare but found in ultra-high-end timepieces**.
 
 | Case Material | Total Watches |
 |--------------|--------------|
 | Steel        | 105,363      |
-| Gold/Steel   | 15,911       |
+| Yellow Gold  | 15,911       |
 | Rose Gold    | 11,085       |
-| Yellow Gold  | 9,988        |
 | White Gold   | 6,984        |
 | Titanium     | 5,852        |
 | Ceramic      | 4,589        |
@@ -364,13 +359,13 @@ We analysed the most frequently used bracelet materials in luxury watches.
 | Platinum        | 790          |
 
 
-### The Most Common Dial Colors in Luxury Watches
+### The Most Common Dial Colours in Luxury Watches
 We analysed the most frequently used dial colors in luxury watches.
 
 **Key Insights:**
-* **Black is the dominant dial color**, appearing in over 61,000 watches.
+* **Black is the dominant dial colour**, appearing in over 61,000 watches.
 * **Blue is the second most common dial choice**, seen in 26,960 watches.
-* **Silver, White, and Gray dials remain popular for classic luxury watches**.
+* **Silver, white, and grey dials remain popular for classic luxury watches**.
 * **Green dials are growing in popularity**, especially in recent luxury trends.
 * **Transparent dials are a niche choice**, often seen in skeleton watches.
 
@@ -380,7 +375,7 @@ We analysed the most frequently used dial colors in luxury watches.
 | Blue         | 26,960       |
 | Silver       | 18,685       |
 | White        | 17,733       |
-| Gray         | 10,218       |
+| Grey         | 10,218       |
 | Green        | 7,066        |
 | Brown        | 4,523        |
 | Champagne    | 3,978        |
