@@ -229,13 +229,13 @@ We analysed the top-selling luxury watch brands per country to understand global
 We analysed how pricing varies across the top luxury watch brands.
 
 **Key Insights:**
-* **Rolex leads in both total sales & premium pricing**, with an average price of $14,344.
+* **Rolex leads in both total sales & premium pricing**, with a average price of $14,344.
 * **Omega is the 2nd best-selling brand but has a lower average price ($4,979.50).**
-* **Patek Philippe & Audemars Piguet dominate the ultra-luxury segment**, with median prices above $70,000.
+* **Patek Philippe & Audemars Piguet dominate the ultra-luxury segment**, with average prices above $70,000.
 * **Breitling, Tudor, TAG Heuer offer more affordable luxury options**, priced between $3,000-$5,000.
-* **Seiko is the most affordable brand in the dataset**, with a median price of $882.
+* **Seiko is the most affordable brand in the dataset**, with an average price of $882.
 
-| Brand             | Total Sales | Avg Price  | Min Price | Max Price   |
+| Brand            | Total Sales | Avg Price  | Min Price | Max Price   |
 |------------------|------------|------------|------------|------------|
 | Rolex           | 74,442      | $14,344.00 | $990       | $946,795   |
 | Omega           | 12,260      | $4,979.50  | $250       | $1,760,000 |
@@ -254,7 +254,7 @@ We analysed how the choice of case material influences pricing.
 
 **Key Insights:**
 * **Platinum is the most expensive case material**, with an average price of $117,271.
-* **Gold remains the dominant luxury material**, with rose gold commanding the highest price ($58,066 avg).
+* **Gold remains the dominant luxury material**, with rose gold commanding the highest price ($58,066 average).
 * **Carbon, Tantalum, and Palladium offer high-end alternatives**, often used in specialty timepieces.
 * **Ceramic, Aluminum, and Titanium provide more affordable luxury options**, balancing durability and cost.
 
@@ -400,17 +400,15 @@ We analysed the most frequently used hour marking styles in luxury watches.
 
 
 # Recommendations
-Based on the insights and findings above, we recommend the following actions for luxury watch manufacturers and retailers:
+Based on the insights and findings above, recommendations below:
 
 ### 1. Leverage Seasonal Sales Trends
-- Sales peak between **August and December**, likely due to **holiday shopping and end-of-year gifting**.
-- Brands should **increase marketing efforts and inventory** leading up to these peak months.
-- Consider **limited-edition releases** or **exclusive promotions** during high-sales periods.
+- Sales peak between **August and December**. It's recommended to ensure the comapny **increases marketing efforts and inventory** leading up to these peak months.
+- Consider **limited-edition and products releases** during high-sales periods.
 
 ### 2. Regional Market Expansion
-- The **USA and Australia** have the highest luxury watch sales.
-- However, **China and Japan** represent strong emerging markets with high demand for premium brands like Rolex and Omega.
-- Companies should **tailor pricing, marketing, and distribution strategies** for these key regions.
+- The **USA and Australia** have the highest luxury watch sales, however, **China and Japan** represent strong emerging markets with high demand for premium brands like Rolex and Omega.
+- This represents a potential opportunity in the market and it might be worth **tailoring marketing, and distribution strategies** for these key regions.
 
 ### 3. Focus on High-Margin Materials
 - **Platinum, Rose Gold, and White Gold watches** have the highest average prices.
