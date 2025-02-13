@@ -428,24 +428,20 @@ Based on the insights and findings above, recommendations below:
 
 
 # Assumptions & Caveats
-Throughout the analysis, we made several assumptions and encountered data limitations. These should be considered when interpreting the insights:
+Throughout the analysis, there were several assumptions made along with some data limitations. These should be considered when interpreting the insights:
 
-### Assumption: Each row represents an individual sale.
+### Each row represents an individual sale.
 - Since the dataset lacked unique transaction IDs, we created a `Transaction_ID` field and treated each row as a separate purchase.
 - This assumes that **no duplicate sales entries exist** and that all sales are unique.
 
-### Assumption: Purchase Dates Are Simulated.
+### Purchase Dates Are Simulated.
 - The dataset **did not include actual purchase dates**, so we generated **realistic timestamps** based on market trends.
-- Seasonal analysis is **based on these generated dates**, meaning actual seasonality might differ slightly.
 
-### Assumption: Locations Were Generated.
+### Locations Were Generated.
 - The dataset **did not include real-world purchase locations**, so we added **realistic country and city assignments**.
-- While these locations align with global luxury watch trends, real-world sales **may vary based on distribution channels**.
 
-### Caveat: Price Data Variability.
-- Price values were analyzed as provided in the dataset, but we assume **pricing reflects actual market conditions**.
-- Some extreme outliers (e.g., ultra-high prices) could result from **limited-edition watches or erroneous data entries**.
+### Price Data Variability.
+- Price values were analysed as provided in the dataset, but we assume **pricing reflects actual market conditions**.
 
-### Caveat: Brand Representation in Dataset.
-- The dataset may not be **fully representative** of the entire luxury watch industry.
-- Some niche brands may be underrepresented, affecting overall **brand comparisons**.
+### Brand Representation in Dataset.
+- The dataset is not **fully representative** of the entire luxury watch industry.
