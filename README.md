@@ -72,9 +72,9 @@ We analysed the total number of luxury watches sold per year from 2018 to 2024. 
 * **A slight decline from 2021 to 2023, stabilising around ~26,900.**
 * **A sharper drop in 2024 suggests external influences (economic factors, demand shifts).** 
 
-| Year | Total Sales |
+| Year | Total Sales (units) |
 |------|------------|
-| 2018 | 26,717 (units)    |
+| 2018 | 26,717     |
 | 2019 | 26,893     |
 | 2020 | 27,012     |
 | 2021 | 26,859     |
@@ -90,7 +90,7 @@ We analysed the total number of luxury watches sold each month from **January 20
 * **February consistently shows the lowest sales**, likely due to fewer days.
 * **Strongest months:** August & December (potentially due to holiday shopping, or EOFY).
 
-| Year-Month | Total Sales |
+| Year-Month | Total Sales (units) |
 |------------|------------|
 | 2023-02    | 2035       |
 | 2023-03    | 2327       |
@@ -116,7 +116,7 @@ We analysed total sales by country to identify key luxury watch markets.
 * **Europe has multiple mid-tier markets** (Italy, Germany, UK, France, Switzerland).
 * **Top 3 countries** make up ~70% of total sales.
 
-| Country       | Total Sales |
+| Country       | Total Sales (units) |
 |--------------|------------|
 | USA          | 40,952     |
 | Australia    | 40,890     |
@@ -139,7 +139,7 @@ We analysed total sales by city to understand which global locations drive the m
 * **European capitals (Milan, Berlin, London, Paris) are major players**, likely due to luxury brand influence.
 * **Hong Kong & Tokyo lead in Asia**, highlighting strong luxury watch demand in the region.
 
-| Country     | City            | Total Sales |
+| Country     | City            | Total Sales (units) |
 |------------|----------------|------------|
 | Australia  | Brisbane        | 8,317      |
 | Italy      | Milan           | 8,305      |
@@ -162,7 +162,7 @@ We analysed total sales by brand in Australia to understand consumer demand for 
 * **Audemars Piguet & Patek Philippe cater to the high-end segment**, showing demand for ultra-luxury.
 * **TAG Heuer, Cartier, and Seiko hold a solid mid-range presence**, indicating Australia’s watch buyers have a diverse range of preferences.
 
-| Brand              | Total Sales |
+| Brand              | Total Sales (units) |
 |--------------------|------------|
 | Rolex             | 18,618     |
 | Omega             | 3,085      |
@@ -186,7 +186,7 @@ We analysed total sales by brand in different countries to determine the **top-p
 * **Europe has steady Rolex demand**, with strong sales in Italy, Germany, Switzerland, UK, and France.
 * **The UAE is a key luxury watch hub**, with high Rolex sales.
 
-| Country       | Brand  | Total Sales |
+| Country       | Brand  | Total Sales (units) |
 |--------------|--------|------------|
 | Australia    | Rolex  | 18,618     |
 | USA          | Rolex  | 18,577     |
@@ -209,7 +209,7 @@ We analysed the top-selling luxury watch brands per country to understand global
 * **Audemars Piguet is the 3rd best-selling brand**, representing the high-end segment.
 * **USA & Australia have the highest total sales across all three brands**.
 
-| Country       | #1 Brand  | Sales  | #2 Brand  | Sales  | #3 Brand         | Sales  |
+| Country       | #1 Brand  | Sales (units)  | #2 Brand  | Sales (units)  | #3 Brand         | Sales (units) |
 |--------------|----------|--------|----------|--------|----------------|--------|
 | Australia    | Rolex    | 18,618 | Omega    | 3,085  | Audemars Piguet | 2,026  |
 | USA          | Rolex    | 18,577 | Omega    | 3,095  | Audemars Piguet | 1,992  |
@@ -235,7 +235,7 @@ We analysed how pricing varies across the top luxury watch brands.
 * **Breitling, Tudor, TAG Heuer offer more affordable luxury options**, priced between $3,000-$5,000.
 * **Seiko is the most affordable brand in the dataset**, with an average price of $882.
 
-| Brand            | Total Sales | Avg Price  | Min Price | Max Price   |
+| Brand            | Total Sales (units) | Avg Price (USD) | Min Price (USD) | Max Price (USD)  |
 |------------------|------------|------------|------------|------------|
 | Rolex           | 74,442      | $14,344.00 | $990       | $946,795   |
 | Omega           | 12,260      | $4,979.50  | $250       | $1,760,000 |
@@ -258,7 +258,7 @@ We analysed how the choice of case material influences pricing.
 * **Carbon, Tantalum, and Palladium offer high-end alternatives**, often used in specialty timepieces.
 * **Ceramic, Aluminum, and Titanium provide more affordable luxury options**, balancing durability and cost.
 
-| Case Material | Avg Price  | Min Price | Max Price   |
+| Case Material | Avg Price (USD)  | Min Price (USD) | Max Price (USD)  |
 |--------------|------------|------------|------------|
 | Platinum     | $117,271.07 | $4,959     | $4,118,557 |
 | Rose Gold    | $58,066.57  | $385       | $3,357,325 |
@@ -281,7 +281,7 @@ We analysed how the choice of bracelet material influences pricing.
 * **Ceramic, Reptile-Leather, and Rubber bracelets command high premiums**, used in exclusive designs.
 * **Steel offers a more affordable luxury options**, appealing to broader markets.
 
-| Bracelet Material  | Avg Price  | Min Price | Max Price   |
+| Bracelet Material  | Avg Price (USD) | Min Price (USD) | Max Price (USD)  |
 |-------------------|------------|------------|------------|
 | Platinum         | $123,335.92 | $6,835     | $890,000   |
 | Rose Gold        | $85,001.08  | $1,836     | $1,168,091 |
@@ -304,7 +304,7 @@ We analysed how different movement types (complications) affect watch pricing.
 * **The most expensive watches tend to be automatic, with a max price of $4.1M.**
 * **Luxury brands favour automatic movements**, whereas quartz is common in entry-level luxury models.
 
-| Complication  | Avg Price  | Min Price | Max Price   |
+| Complication  | Avg Price (USD) | Min Price (USD) | Max Price (USD)  |
 |--------------|------------|------------|------------|
 | Hand-Wound   | $22,641.09 | $75        | $1,870,006 |
 | Automatic    | $21,165.10 | $53        | $4,118,557 |
