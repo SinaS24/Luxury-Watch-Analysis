@@ -1,5 +1,5 @@
 # Project Background
-Luxury watches represent a unique segment of the global luxury goods industry, characterised by high-end craftsmanship, brand heritage, and exclusivity. The industry is dominated by Swiss watchmakers such as Rolex, Patek Philippe, Audemars Piguet, and Omega, along with high-fashion brands like Cartier. The data set supplies sales for over 160,000 watches. 
+Luxury watches represent a unique segment of the global luxury goods industry, characterised by high-end craftsmanship, brand heritage, and exclusivity. The industry is dominated by Swiss watchmakers such as Rolex, Patek Philippe, Audemars Piguet, and Omega, along with high-end fashion brands like Cartier. The data set supplies sales for over 160,000 watches. 
 This project analyses the dataset in order to uncover insights that will guide decision makers in marketing, product development, and pricing strategy. 
 
 Insights and recommendations are provided on the following key areas:
@@ -19,7 +19,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Data Structure & Initial Checks
 
-The database consists of a single table, luxury_watch, which contains structured data about luxury watch transactions. Each row represents an individual sale, including details such as brand, model, material composition, pricing, and purchase information.
+The database consists of a single table, luxury_watch_dataset_cleaned, which contains structured data about luxury watch transactions. Each row represents an individual sale, including details such as brand, model, material composition, pricing, and purchase information.
 Below is the finalised table after structuring and cleaning the data.
 
 ## Dataset Schema
@@ -32,7 +32,7 @@ Below is the finalised table after structuring and cleaning the data.
 | **Complication** | TEXT     | Type of watch mechanism or special features (e.g., automatic, chronograph). |
 | **Case Material** | TEXT     | The material used for the watch case (e.g., steel, platinum, gold). |
 | **Bracelet Material** | TEXT | The material of the bracelet (e.g., leather, rubber, steel). |
-| **Dial**         | TEXT     | The watch face color (e.g., black, blue, silver). |
+| **Dial**         | TEXT     | The watch face colour (e.g., black, blue, silver). |
 | **Hour Markings** | TEXT     | Type of markings on the dial (e.g., Roman numerals, Arabic numerals). |
 | **Lunette Material** | TEXT | Material used for the bezel (e.g., ceramic, steel). |
 | **Price**        | INTEGER  | The price of the watch in USD. |
@@ -40,11 +40,11 @@ Below is the finalised table after structuring and cleaning the data.
 ## Initial Data Quality Checks
 
 Below are the key findings and improvements made:
-•	Added Transaction_ID – Assigned a unique ID to every sale. (The dataset originally lacked a unique transaction identifier. Since the same Reference number appeared in multiple rows, it was determined that for this analysis it would be best if each row represented an individual sale rather than just a unique watch model.)
-•	Checked for Missing Values – Identified 1 missing Reference value and removed it.
-•	Ensured Price Is Numeric – Verified no non-numeric values exist.
-•	Standardised Categorical Values – Fixed inconsistencies in materials and complications.
-•	Simulated Purchase Dates & Locations – Added realistic timestamps and regional purchase data.
+-	Added Transaction_ID – Assigned a unique ID to every sale. (The dataset originally lacked a unique transaction identifier. Since the same Reference number appeared in multiple rows, it was determined that for this analysis it would be best if each row represented an individual sale rather than just a unique watch model.)
+-	Checked for Missing Values – Identified 1 missing Reference value and removed it.
+-	Ensured Price Is Numeric – Verified no non-numeric values exist.
+-	Standardised Categorical Values – Fixed inconsistencies in materials and complications.
+-	Simulated Purchase Dates & Locations – Added realistic timestamps and regional purchase data.
 
 
 
