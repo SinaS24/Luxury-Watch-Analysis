@@ -74,7 +74,7 @@ We analysed the total number of luxury watches sold per year from 2018 to 2024. 
 
 | Year | Total Sales |
 |------|------------|
-| 2018 | 26,717     |
+| 2018 | 26,717 (units)    |
 | 2019 | 26,893     |
 | 2020 | 27,012     |
 | 2021 | 26,859     |
