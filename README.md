@@ -403,7 +403,7 @@ We analysed the most frequently used hour marking styles in luxury watches.
 Based on the insights and findings above, recommendations below:
 
 ### 1. Leverage Seasonal Sales Trends
-- Sales peak between **August and December**. It's recommended to ensure the comapny **increases marketing efforts and inventory** leading up to these peak months.
+- Sales peak between **August and December**. It's recommended to ensure the company **increases marketing efforts and inventory** leading up to these peak months.
 - Consider **limited-edition and products releases** during high-sales periods.
 
 ### 2. Regional Market Expansion
