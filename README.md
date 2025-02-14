@@ -1,5 +1,5 @@
 # Project Background
-Luxury watches represent a unique segment of the global luxury goods industry, characterised by high-end craftsmanship, brand heritage, and exclusivity. The industry is dominated by Swiss watchmakers such as Rolex, Patek Philippe, Audemars Piguet, and Omega, along with high-end fashion brands like Cartier. The data set supplies sales for over 160,000 watches. This analysis was done in order to uncover insights that will guide decision makers at an organisation looking to get into the market, particuarly in the ares of product development, marketing, and pricing strategy. 
+Luxury watches represent a unique segment of the global luxury goods industry, characterised by high-end craftsmanship, brand heritage, and exclusivity. The industry is dominated by Swiss watchmakers such as Rolex, Patek Philippe, Audemars Piguet, and Omega, along with high-end fashion brands like Cartier. The data set supplies sales for over 160,000 watches. This analysis was done in order to uncover insights that will guide decision makers at an organisation looking to get into the market, particularly in the areas of product development, marketing, and pricing strategy. 
 
 Insights and recommendations are provided on the following key areas:
 
@@ -10,7 +10,7 @@ Insights and recommendations are provided on the following key areas:
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
-Targed SQL queries regarding various business questions can be found here [link].
+Targeted SQL queries regarding various business questions can be found here [link].
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
 
@@ -51,7 +51,7 @@ Below are the key findings and improvements made:
 
 ## Overview of Findings
 
-This analysis explores key trends in luxury watch sales, focusing on seasonality, regional demand, and pricing strategies. Sales peak between August and December, driven by holiday shopping patterns, while February consistently records the lowest sales volume. A decline in sales in 2024 suggests potential economic shifts or changes in consumer behavior.  
+This analysis explores key trends in luxury watch sales, focusing on seasonality, regional demand, and pricing strategies. Sales peak between August and December, driven by holiday shopping patterns, while February consistently records the lowest sales volume. A decline in sales in 2024 suggests potential economic shifts or changes in consumer behaviour.  
 
 Regionally, the USA and Australia lead in total sales, while China and Japan show strong growth potential for luxury watch brands. Rolex dominates the global market, followed by Omega and Audemars Piguet, with premium brands like Patek Philippe commanding the highest prices.  
 
@@ -256,7 +256,7 @@ We analysed how the choice of case material influences pricing.
 * **Platinum is the most expensive case material**, with an average price of $117,271.
 * **Gold remains the dominant luxury material**, with rose gold commanding the highest price ($58,066 average).
 * **Carbon, Tantalum, and Palladium offer high-end alternatives**, often used in specialty timepieces.
-* **Ceramic, Aluminum, and Titanium provide more affordable luxury options**, balancing durability and cost.
+* **Ceramic, Aluminium, and Titanium provide more affordable luxury options**, balancing durability and cost.
 
 | Case Material | Avg Price (USD)  | Min Price (USD) | Max Price (USD)  |
 |--------------|------------|------------|------------|
@@ -268,7 +268,7 @@ We analysed how the choice of case material influences pricing.
 | Tantalum     | $27,617.68  | $497       | $114,846   |
 | Palladium    | $24,799.00  | $7,456     | $62,106    |
 | Ceramic      | $17,483.72  | $213       | $1,238,437 |
-| Aluminum     | $17,197.17  | $73        | $530,206   |
+| Aluminium     | $17,197.17  | $73        | $530,206   |
 | Titanium     | $16,290.38  | $110       | $719,365   |
 
 
@@ -360,7 +360,7 @@ We analysed the most frequently used bracelet materials in luxury watches.
 
 
 ### The Most Common Dial Colours in Luxury Watches
-We analysed the most frequently used dial colors in luxury watches.
+We analysed the most frequently used dial colours in luxury watches.
 
 **Key Insights:**
 * **Black is the dominant dial colour**, appearing in over 61,000 watches.
