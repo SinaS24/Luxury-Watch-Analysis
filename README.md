@@ -80,6 +80,7 @@ We analysed the total number of luxury watches sold per year from 2018 to 2024. 
 | 2023 | 26,944     |
 | 2024 | 22,863     |
 
+![Yearly Sales trends](https://github.com/SinaS24/Luxury-Watch-Analysis/blob/main/Yearly%20Sales%20Trend.png)
 
 ### Monthly Sales Trends
 We analysed the total number of luxury watches sold each month from **January 2018 to January 2024**.
