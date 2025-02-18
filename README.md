@@ -389,18 +389,13 @@ Based on the insights and findings above, recommendations below:
 
 ### 3. Focus on High-Margin Materials
 - **Platinum, Rose Gold, and White Gold watches** have the highest average prices.
-- Watchmakers can **increase profit margins** by emphasizing these materials in high-end collections.
+- There is opportunity to **increase profit margins** by emphasising these materials in high-end collections.
 - **Carbon and Ceramic** watches also show strong pricing potential and should be marketed for **modern, innovative buyers**.
-
-### 4. Optimize Brand Positioning
-- **Rolex dominates in both sales volume and pricing power**.
-- **Patek Philippe and Audemars Piguet** target ultra-luxury buyers with significantly higher average prices.
-- **Omega and TAG Heuer** perform well in the mid-tier market but should explore **premium limited-edition collections** to compete in the high-end sector.
 
 ### 5. Strategic Product Development
 - **Black, Blue, and Silver dials** are the most popular and should be prioritized in mainstream collections.
-- **Minimalist watch designs (No Hour Markings) dominate the market**, indicating a strong preference for clean, modern aesthetics.
-- **Automatic watches sell at a premium compared to Quartz watches**, reinforcing the importance of **high-quality craftsmanship** in brand messaging.
+- **Minimalist watch designs (No Hour Markings) dominate the market**, indicating a strong preference for clean aesthetics.
+- **Automatic watches sell at a premium compared to Quartz watches**, reinforcing the importance of **high-quality craftsmanship**.
 
 
 
@@ -408,9 +403,6 @@ Based on the insights and findings above, recommendations below:
 Throughout the analysis, there were several assumptions made along with some data limitations. These should be considered when interpreting the insights:
 
 ### Each row represents an individual sale.
-- Since the dataset lacked unique transaction IDs, we created a `Transaction_ID` field and treated each row as a separate purchase.
-- This assumes that **no duplicate sales entries exist** and that all sales are unique.
-
 ### Purchase Dates Are Simulated.
 - The dataset **did not include actual purchase dates**, so we generated **realistic timestamps** based on market trends.
 
