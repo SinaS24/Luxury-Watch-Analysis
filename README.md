@@ -174,29 +174,6 @@ We analysed total sales by brand in Australia to understand consumer demand for 
 | Seiko             | 901        |
 
 
-### Brand Dominance by Country: Rolex's Market Leadership
-We analysed total sales by brand in different countries to determine the **top-performing luxury watch brands per country**.
-
-**Key Insights:**
-* **Rolex is the #1 brand in every major country**, showing an unmatched global presence.
-* **Australia & USA lead Rolex sales**, with over **18,500 sales each**.
-* **China ranks 3rd (7,352 sales),** indicating a growing luxury watch market.
-* **Europe has steady Rolex demand**, with strong sales in Italy, Germany, Switzerland, UK, and France.
-* **The UAE is a key luxury watch hub**, with high Rolex sales.
-
-| Country       | Brand  | Total Sales (units) |
-|--------------|--------|------------|
-| Australia    | Rolex  | 18,618     |
-| USA          | Rolex  | 18,577     |
-| China        | Rolex  | 7,352      |
-| Italy        | Rolex  | 3,845      |
-| Japan        | Rolex  | 3,805      |
-| Germany      | Rolex  | 3,763      |
-| Switzerland  | Rolex  | 3,762      |
-| UK           | Rolex  | 3,708      |
-| UAE          | Rolex  | 3,687      |
-| France       | Rolex  | 3,668      |
-
 
 ### Top 3 Selling Brands by Country
 We analysed the top-selling luxury watch brands per country to understand global brand dominance.
@@ -395,7 +372,7 @@ We analysed the most frequently used hour marking styles in luxury watches.
 | Arabic        | 32,159       |
 | Roman         | 15,629       |
 
-
+### Summary
 
 # Recommendations
 Based on the insights and findings above, recommendations below:
