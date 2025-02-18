@@ -12,7 +12,7 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
 
 Targeted SQL queries regarding various business questions can be found [here](https://raw.githubusercontent.com/SinaS24/Luxury-Watch-Analysis/refs/heads/main/LW_Business_Insights_Queries.sql?token=GHSAT0AAAAAAC5B6RNEWUZWCHNJNZSQXCWYZ5T7AFQ).
 
-An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/app/profile/sina.sangsari/viz/Luxurywatchanalysis/LuxuryWatchMarketDashboard?publish=yes).
+An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/app/profile/sina.sangsari/viz/Luxurywatchanalysis/LuxuryWatchMarketDashboard).
 
 
 
