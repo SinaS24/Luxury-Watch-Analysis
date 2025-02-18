@@ -8,9 +8,9 @@ Insights and recommendations are provided on the following key areas:
 - **Material & Design Preferences** 
 - **Brand Positioning & Competitive Differentiation** 
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here](https://raw.githubusercontent.com/SinaS24/Luxury-Watch-Analysis/refs/heads/main/LW_Data_Cleaning.sql?token=GHSAT0AAAAAAC5B6RNFGKMOPMCEN2MZXLUGZ5T665A).
+The SQL queries used to inspect and clean the data for this analysis can be found [here](https://raw.githubusercontent.com/SinaS24/Luxury-Watch-Analysis/refs/heads/main/LW_Data_Cleaning.sql?token=GHSAT0AAAAAAC5B6RNFIXJO6MWV36UVJOACZ5UAXHA).
 
-Targeted SQL queries regarding various business questions can be found [here](https://raw.githubusercontent.com/SinaS24/Luxury-Watch-Analysis/refs/heads/main/LW_Business_Insights_Queries.sql?token=GHSAT0AAAAAAC5B6RNEWUZWCHNJNZSQXCWYZ5T7AFQ).
+Targeted SQL queries regarding various business questions can be found [here](https://raw.githubusercontent.com/SinaS24/Luxury-Watch-Analysis/refs/heads/main/LW_Business_Insights_Queries.sql?token=GHSAT0AAAAAAC5B6RNFJFPIBJNG4IOWB6M4Z5UAWXA).
 
 An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/app/profile/sina.sangsari/viz/Luxurywatchanalysis/LuxuryWatchMarketDashboard).
 
