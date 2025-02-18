@@ -57,8 +57,6 @@ Regionally, the USA and Australia lead in total sales, while China and Japan sho
 
 Material and design choices significantly influence pricing, with Platinum, Rose Gold, and White Gold watches ranking among the most expensive. Black, Blue, and Silver dials are the most popular, reflecting classic consumer preferences. Automatic watches consistently sell at a premium, reinforcing their perception as high-end craftsmanship pieces.  
 
-[📊 **View Interactive Dashboard**](#) *(Add link once published)*  
-
 
 
 # Insights Deep Dive
