@@ -104,6 +104,7 @@ We analysed the total number of luxury watches sold each month from **January 20
 | 2023-12    | 2292       |
 | 2024-01    | 2263       |
 
+![Monthly Seasonality Trend](https://github.com/SinaS24/Luxury-Watch-Analysis/blob/main/Monthly%20Seasonality%20Trend.png)
 
 ## Regional Sales Trends & Patterns
 
@@ -174,7 +175,7 @@ We analysed total sales by brand in Australia to understand consumer demand for 
 | Cartier           | 956        |
 | Seiko             | 901        |
 
-
+![Top Selling Brands in Australia](https://github.com/SinaS24/Luxury-Watch-Analysis/blob/main/Top%2010%20Selling%20brands%20in%20Aus.png)
 
 ### Top 3 Selling Brands by Country
 We analysed the top-selling luxury watch brands per country to understand global brand dominance.
@@ -373,7 +374,7 @@ We analysed the most frequently used hour marking styles in luxury watches.
 | Arabic        | 32,159       |
 | Roman         | 15,629       |
 
-### Summary
+![Watch feature analysis](https://github.com/SinaS24/Luxury-Watch-Analysis/blob/main/Brand%20and%20price%20analysis.png)
 
 # Recommendations
 Based on the insights and findings above, recommendations below:
