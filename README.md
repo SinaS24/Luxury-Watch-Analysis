@@ -51,11 +51,11 @@ Below are the key findings and improvements made:
 
 ## Overview of Findings
 
-This analysis explores key trends in luxury watch sales, focusing on seasonality, regional demand, and pricing strategies. Sales peak between August and December, driven by holiday shopping patterns, while February consistently records the lowest sales volume. A decline in sales in 2024 suggests potential economic shifts or changes in consumer behaviour.  
+This analysis explores key trends in luxury watch sales, focusing on seasonality, regional demand, and pricing strategies. Sales peak can be seen as  sporadic and not seasonal, this indicating that given the price ranges, economic conditions and marketing initiatives play a pivotal role in sales.
 
-Regionally, the USA and Australia lead in total sales, while China and Japan show strong growth potential for luxury watch brands. Rolex dominates the global market, followed by Omega and Audemars Piguet, with premium brands like Patek Philippe commanding the highest prices.  
+Regionally, the USA and Australia lead in total sales, while China and Japan show strong growth potential for luxury watch brands. Rolex dominates the global market, followed by Omega and Audemars Piguet, with premium brands like Patek Philippe commanding the highest prices.
 
-Material and design choices significantly influence pricing, with Platinum, Rose Gold, and White Gold watches ranking among the most expensive. Black, Blue, and Silver dials are the most popular, reflecting classic consumer preferences. Automatic watches consistently sell at a premium, reinforcing their perception as high-end craftsmanship pieces.  
+Luxury watch sales are thriving across key global markets, with Australia notably standing out. Brisbane and Sydney both rank among the top 10 cities worldwide, highlighting the country's strong demand for high-end timepieces. In the United States, major metropolitan hubs such as San Francisco and New York lead the market, reflecting concentrated consumer spending power. Meanwhile, Europe's influence remains significant, with fashion capitals like Milan, Berlin, London, and Paris driving robust sales, likely bolstered by the region’s deep-rooted association with luxury heritage brands. In Asia, Hong Kong and Tokyo emerge as dominant players, underscoring the region’s sophisticated retail landscape and strong appetite for premium watches.
 
 
 
